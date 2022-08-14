@@ -10,44 +10,44 @@ public class Main {
         //Задание 2
         for (int i = 0; i < firstArray.length; i++) {
             System.out.print(firstArray[i]);
-            if( i!=firstArray.length-1){
-                System.out.print(" ,");
-            };
-        }
-        System.out.println();
-        for (int o = 0; o < secondArray.length; o++) {
-            System.out.print(secondArray[o]);
-            if (o!=secondArray.length - 1){
-                System.out.print(" ,");
+            if( i != firstArray.length - 1){
+                System.out.print(",");
             }
         }
         System.out.println();
-        for (int p = 0; p < thirdArray.length; p++) {
-            System.out.print(thirdArray[p]);
-            if (p!= thirdArray.length - 1 ){
-                System.out.print(" ,");
+        for (int i = 0; i < secondArray.length; i++) {
+            System.out.print(secondArray[i]);
+            if (i != secondArray.length - 1){
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < thirdArray.length; i++) {
+            System.out.print(thirdArray[i]);
+            if (i != thirdArray.length - 1 ){
+                System.out.print(",");
             }
         }
         System.out.println();
         //Задача 3
         for (int i = firstArray.length - 1; i >= 0; i--) {
             System.out.print(firstArray[i]);
-            if( i!=0){
-                System.out.print(" ,");
-            };
-        }
-        System.out.println();
-        for (int o = secondArray.length - 1; o >= 0; o--) {
-            System.out.print(secondArray[o]);
-            if (o!=0){
-                System.out.print(" ,");
+            if( i != 0){
+                System.out.print(",");
             }
         }
         System.out.println();
-        for (int p = thirdArray.length - 1; p >= 0; p--) {
-            System.out.print(thirdArray[p]);
-            if (p!=0 ){
-                System.out.print(" ,");
+        for (int i = secondArray.length - 1; i >= 0; i--) {
+            System.out.print(secondArray[i]);
+            if (i != 0){
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = thirdArray.length - 1; i >= 0; i--) {
+            System.out.print(thirdArray[i]);
+            if (i != 0 ){
+                System.out.print(",");
             }
         }
         System.out.println();
@@ -57,9 +57,9 @@ public class Main {
                 firstArray[i]++;
             }
             System.out.print(firstArray[i]);
-            if( i!=firstArray.length-1){
-                System.out.print(" ,");
-            };
+            if( i != firstArray.length - 1){
+                System.out.print(",");
+            }
         }
 
     }
